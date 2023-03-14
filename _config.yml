@@ -165,7 +165,7 @@ analytics:
 ##############################
 markdown: kramdown
 highlighter: rouge
-permalink: date
+permalink: none
 
 exclude:
   - CHANGELOG.md
@@ -191,9 +191,9 @@ defaults:
       type: posts
     values:
       layout: article
-      title: Page - Aside
       sharing: true
       license: true
+      comments: true
       aside:
         toc: true
       show_edit_on_github: true

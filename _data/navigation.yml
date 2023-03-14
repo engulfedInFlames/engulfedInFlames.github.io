@@ -2,69 +2,81 @@ header:
   - titles:
       # @start locale config
       en: &EN Archive
-      en-GB: *EN
-      en-US: *EN
-      en-CA: *EN
-      en-AU: *EN
-      zh-Hans: &ZH_HANS 归档
-      zh: *ZH_HANS
-      zh-CN: *ZH_HANS
-      zh-SG: *ZH_HANS
-      zh-Hant: &ZH_HANT 歸檔
-      zh-TW: *ZH_HANT
-      zh-HK: *ZH_HANT
+      # en-GB: *EN
+      # en-US: *EN
+      # en-CA: *EN
+      # en-AU: *EN
+      # zh-Hans: &ZH_HANS 归档
+      # zh: *ZH_HANS
+      # zh-CN: *ZH_HANS
+      # zh-SG: *ZH_HANS
+      # zh-Hant: &ZH_HANT 歸檔
+      # zh-TW: *ZH_HANT
+      # zh-HK: *ZH_HANT
       ko: &KO 아카이브
       ko-KR: *KO
-      fr: &FR Archives
-      fr-BE: *FR
-      fr-CA: *FR
-      fr-CH: *FR
-      fr-FR: *FR
-      fr-LU: *FR
-      tr: &TR Arşivdekiler
+      # fr: &FR Archives
+      # fr-BE: *FR
+      # fr-CA: *FR
+      # fr-CH: *FR
+      # fr-FR: *FR
+      # fr-LU: *FR
+      # tr: &TR Arşivdekiler
       # @end locale config
     url: /archive.html
 
   - titles:
       # @start locale config
       en: &EN About
-      en-GB: *EN
-      en-US: *EN
-      en-CA: *EN
-      en-AU: *EN
-      zh-Hans: &ZH_HANS 关于
-      zh: *ZH_HANS
-      zh-CN: *ZH_HANS
-      zh-SG: *ZH_HANS
-      zh-Hant: &ZH_HANT 關於
-      zh-TW: *ZH_HANT
-      zh-HK: *ZH_HANT
+      # en-GB: *EN
+      # en-US: *EN
+      # en-CA: *EN
+      # en-AU: *EN
+      # zh-Hans: &ZH_HANS 关于
+      # zh: *ZH_HANS
+      # zh-CN: *ZH_HANS
+      # zh-SG: *ZH_HANS
+      # zh-Hant: &ZH_HANT 關於
+      # zh-TW: *ZH_HANT
+      # zh-HK: *ZH_HANT
       ko: &KO 소개
       ko-KR: *KO
-      fr: &FR À propos
-      fr-BE: *FR
-      fr-CA: *FR
-      fr-CH: *FR
-      fr-FR: *FR
-      fr-LU: *FR
-      tr: &TR Hakkında
+      # fr: &FR À propos
+      # fr-BE: *FR
+      # fr-CA: *FR
+      # fr-CH: *FR
+      # fr-FR: *FR
+      # fr-LU: *FR
+      # tr: &TR Hakkında
       # @end locale config
     url: /about.html
 
 # sidebar
-
+# _config.yml의 permalink 속성을 none으로 하면 /:category/:title 포맷으로 url을 자동 설정한다.
 categories:
-  - title: DOCS
-    children:
-      - title: Deploy
-
-  - title: My Projects
-    children:
-
   - title: Sparta Boot Camp
     children:
-      - title: 액셀보다 쉬운 SQL
-        url: /categories/sparta/basic-sql
+      - title: SQL
+        url: /categories/sparta/sparta-sql/ # 이와 같이 고유 주소를 설정하면 Jekyll이 sparta-sql 폴더 내의 index.html을 렌더링해준다.
+
+  - title: Clone Coding
+    children:
+      # - title: Wetube
+      #   url:
+      # - title: Noom
+      #   url:
+
+  - title: Typescript
+
+  - title: Python
+
+  - title: Rust
+
+  - title: Other Programming Langs
+    children:
+      # - title: JS
+      # - title: React
+      # - title: SCSS
 
   - title: Algorithm
     children:
@@ -72,11 +84,16 @@ categories:
   - title: DBMS
     children:
       - title: MySQL
-        url: /categories/dbms/mysql
+        url: /categories/dbms/mysql/
 
   - title: Blog Customization
     children:
       - title: Jekyll
-        url: /categories/customization/jekyll.html
+        url: /categories/customization/jekyll/
       - title: TeXt Theme
-        url: /categories/customization/text-theme.html
+        url: /categories/customization/text-theme/
+
+  - title: DOCS
+    children:
+      - title: Deploy
+        url: /categories/docs-ko/deploy/
