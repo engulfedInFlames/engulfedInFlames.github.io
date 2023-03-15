@@ -66,6 +66,10 @@ categories:
       # - title: Noom
       #   url:
 
+  - title: Chapt GPT
+    children:
+      - title: GPT-4
+        url: /categories/gpt4/
   - title: Typescript
 
   - title: Python
