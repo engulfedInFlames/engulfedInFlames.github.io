@@ -56,8 +56,14 @@ header:
 categories:
   - title: Sparta Boot Camp
     children:
+      - title: What I Learned
+        url: /categories/sparta/what-i-learned/
+
+      - title: Team Projects
+        url: /categories/sparta/team-projects/
+
       - title: SQL
-        url: /categories/sparta/sparta-sql/ # 이와 같이 고유 주소를 설정하면 Jekyll이 sparta-sql 폴더 내의 index.html을 렌더링해준다.
+        url: /categories/sparta/sql/ # 이와 같이 고유 주소를 설정하면 Jekyll이 sparta-sql 폴더 내의 index.html을 렌더링해준다.
 
   - title: Clone Coding
     children:
@@ -70,6 +76,7 @@ categories:
     children:
       - title: GPT-4
         url: /categories/gpt4/
+
   - title: Typescript
 
   - title: Python
