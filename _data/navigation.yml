@@ -80,6 +80,13 @@ categories:
   - title: Typescript
 
   - title: Python
+    children:
+      - title: basic
+        url: /categories/python/basic
+      - title: intermediate
+        url: /categories/python/intermediate
+      - title: master
+        url: /categories/python/master
 
   - title: Kotlin
 
