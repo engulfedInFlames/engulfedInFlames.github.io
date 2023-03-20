@@ -67,10 +67,12 @@ categories:
 
   - title: Clone Coding
     children:
-      # - title: Wetube
-      #   url:
-      # - title: Noom
-      #   url:
+      - title: Webflix
+        url: /categories/my-projects/webflix
+      - title: Wetube
+        url: /categories/my-projects/wetub
+      - title: Noom
+        url: /categories/my-projects/noom
 
   - title: Chapt GPT
     children:
