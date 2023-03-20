@@ -81,11 +81,11 @@ categories:
 
   - title: Python
     children:
-      - title: basic
+      - title: Basic
         url: /categories/python/basic
-      - title: intermediate
+      - title: Intermediate
         url: /categories/python/intermediate
-      - title: master
+      - title: Master
         url: /categories/python/master
 
   - title: Kotlin
