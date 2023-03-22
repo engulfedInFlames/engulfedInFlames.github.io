@@ -74,13 +74,6 @@ categories:
       - title: Noom
         url: /categories/my-projects/noom
 
-  - title: Chapt GPT
-    children:
-      - title: GPT-4
-        url: /categories/gpt4/
-
-  - title: Typescript
-
   - title: Python
     children:
       - title: Basic
@@ -90,6 +83,13 @@ categories:
       - title: Master
         url: /categories/python/master
 
+  - title: Algorithm
+    children:
+      - title: By Python
+        url: /categories/algorithm/python
+
+  - title: Typescript
+
   - title: Kotlin
 
   - title: Other Programming Langs
@@ -97,9 +97,6 @@ categories:
       # - title: JS
       # - title: React
       # - title: SCSS
-
-  - title: Algorithm
-    children:
 
   - title: DBMS
     children:
@@ -112,6 +109,11 @@ categories:
         url: /categories/customization/jekyll/
       - title: TeXt Theme
         url: /categories/customization/text-theme/
+
+  - title: Chapt GPT
+    children:
+      - title: GPT-4
+        url: /categories/gpt4/
 
   - title: DOCS
     children:
