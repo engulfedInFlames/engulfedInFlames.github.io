@@ -3,7 +3,7 @@ title: Github Pages에 SPA 배포하기
 tags: [SPA, Deploy, gh-pages]
 sidebar:
   nav: categories
-permalink: "/categories/docs-ko/deploy/spa-gh-pages"
+permalink: "/categories/docs/deploy/spa-gh-pages"
 # article_header:
 #   type: cover
 #   image:
@@ -11,6 +11,8 @@ permalink: "/categories/docs-ko/deploy/spa-gh-pages"
 ---
 
 <!--more-->
+
+<br/>
 
 &nbsp;&nbsp;몇 날 며칠에 걸려, 겨우 React 기반 SPA를 배포하는 데 성공했습니다...
 AWS와 Heroku 배포는 여전히 애 먹고 있다는 사실이 저를 애석하게
@@ -26,7 +28,7 @@ AWS와 Heroku 배포는 여전히 애 먹고 있다는 사실이 저를 애석�
 <br/>
 
 <div align="center">
-<img src="https://i.namu.wiki/i/a_vYcmecWwxqTU5sdN6HTI0CUwd1qosXHtpCBwARyiggvT1K-CVc_F7rqRjFZL87dz2eJbJOvSUFBlNx-2wfJe8m91zAYmAtz4gGWeminKv1HxLQZG9t6i7k7zM-rbmU7Fp7mQg2AXHxJq_8uqIGHw.webp" alt="unicorn app logo" width="200px"/>
+<img src="https://unicornpro-web-static.s3.ap-northeast-2.amazonaws.com/static/img/logo/logo.svg" alt="unicorn app logo" width="200px"/>
 </div>
 
 <br/>

@@ -68,35 +68,36 @@ categories:
   - title: Clone Coding
     children:
       - title: Webflix
-        url: /categories/my-projects/webflix
+        url: /categories/cloning/webflix/
       - title: Wetube
-        url: /categories/my-projects/wetub
+        url: /categories/cloning/wetube/
       - title: Noom
-        url: /categories/my-projects/noom
+        url: /categories/cloning/noom/
 
   - title: Python
     children:
       - title: Basic
-        url: /categories/python/basic
+        url: /categories/python/basic/
       - title: Intermediate
-        url: /categories/python/intermediate
+        url: /categories/python/intermediate/
       - title: Master
-        url: /categories/python/master
+        url: /categories/python/master/
 
   - title: Algorithm
     children:
       - title: By Python
-        url: /categories/algorithm/python
+        url: /categories/algorithm/python/
 
   - title: Typescript
 
-  - title: Kotlin
-
   - title: Other Programming Langs
     children:
-      # - title: JS
-      # - title: React
-      # - title: SCSS
+      - title: React
+        url: /categories/others/react/
+      - title: SCSS
+        url: /categories/others/scss/
+      - title: Kotlin
+        url: /categories/others/kotlin/
 
   - title: DBMS
     children:
@@ -107,8 +108,8 @@ categories:
     children:
       - title: Jekyll
         url: /categories/customization/jekyll/
-      - title: TeXt Theme
-        url: /categories/customization/text-theme/
+      - title: Markdown
+        url: /categories/customization/markdown/
 
   - title: Chapt GPT
     children:
@@ -118,4 +119,4 @@ categories:
   - title: DOCS
     children:
       - title: Deploy
-        url: /categories/docs-ko/deploy/
+        url: /categories/docs/deploy/

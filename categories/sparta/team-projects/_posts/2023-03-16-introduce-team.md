@@ -1,6 +1,6 @@
 ---
 title: 팀 소개 웹 페이지 만들기
-tags: [Python, Flask]
+tags: [Sparta, Python, Flask]
 sidebar:
   nav: categories
 permalink: "/categories/sparta/team-projects/introduce-team"

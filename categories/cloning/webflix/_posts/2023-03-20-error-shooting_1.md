@@ -3,7 +3,7 @@ title: WEBFLIX Error Shooting (1)
 tags: [React, TS, Error]
 sidebar:
   nav: categories
-permalink: "/categories/my-projects/webflix/error-shooting_1"
+permalink: "/categories/cloning/webflix/error-shooting_1"
 article_header:
   type: cover
   image:
@@ -20,7 +20,7 @@ article_header:
 
 <br/>
 
-&nbsp;&nbsp; IntrinsicAttributes Error가 발생했습니다. 이 Error는 부모 컴포넌트로부터 자식 컴포넌트에 Props로 데이터를 보낼 때, 자식 컴포넌트에서 해당 데이터에 대한 Type을 제대로 정의하지 않을 때 발생합니다. 근데 문제는... 무슨 에러인지 알면서도 어디가 잘못됐는 지를 모르겠다는 것입니다. 구글링해서 비슷한 사례를 여럿 찾아 비교해봤음에도, 제 코드의 어디가 잘못됐는 지를 찾을 수 없었습닏다. 최후의 보루로 GPT에게 코드 전문을 올려 물었으나, *"I don't see any other issues in the code snippets you provided."*라는 답변을 받았습니다. GPT도 답변을 해주지 못해 정말 안타까운 상황이나 (속이 타나) ,해결 방법은 좀 더 궁구해 봐야 하니, 우선 현재 상황부터 재검토하겠습니다.
+&nbsp;&nbsp; IntrinsicAttributes Error가 발생했습니다. 이 Error는 부모 컴포넌트로부터 자식 컴포넌트에 Props로 데이터를 보낼 때, 자식 컴포넌트에서 해당 데이터에 대한 Type을 제대로 정의하지 않을 때 발생합니다. 근데 문제는... 무슨 에러인지 알면서도 어디가 잘못됐는 지를 모르겠다는 것입니다. 구글링해서 비슷한 사례를 여럿 찾아 비교해봤음에도, 제 코드의 어디가 잘못됐는 지를 찾을 수 없었습닏다. 최후의 보루로 GPT에게 코드 전문을 올려 물었으나, *"I don't see any other issues in the code snippets you provided."*라는 답변을 받았습니다. GPT도 답변을 해주지 못해 정말 안타까운 상황이나 (속이 타나), 급할 수록 돌아가라. 우선 현재 상황부터 재검토하겠습니다.
 
 ---
 
@@ -70,7 +70,6 @@ function Home() {
 }
 
 // 자식 컴포넌트 (Slider)
-
 interface ISliderProps {
   movies: IMovies;
 }
@@ -85,8 +84,7 @@ function Slider({ movies }: ISliderProps) {
 
 ### 오류 해결
 
-&nbsp;&nbsp; 제 Slider.tsx에는 코드 오류가 없었습니다. 인터페이스도 잘 정의했구요. Props를 데이터 구조 분해한 것도, 인터페이스를 부여한 것도 잘못되지 않았습니다. **부모 컴포넌트가 있는 tsx 파일(이하 부모 tsx)에 제 Slider가 import 되지 않았었다는 사실만 빼면 말입니다.**
-&nbsp;&nbsp; 정말 말도 안 되는 실수를 했었습니다. 부모 tsx에 제가 Slider를 컴포넌트화 하기 전에 생성해 놓은 같은 이름의 styled 요소가 있었습니다...! 그걸 지우지 않고서 부모 컴포넌트에 아무리 Slider를 렌더링해봤자, 렌더링 되는 것은 컴포넌트화 한 Slider가 아닌, 같은 이름의 styled 요소입니다. 실수를 깨닫고, 우선 Slider 컴포넌트의 export 이름을 MySlider로 변경했습니다
+&nbsp;&nbsp; 결론적으로 제 Slider.tsx에는 코드 오류가 없었습니다. 인터페이스도 잘 정의했구요. Props를 데이터 구조 분해한 것도, 인터페이스를 부여한 것도 잘못되지 않았습니다. **부모 컴포넌트가 있는 tsx 파일(이하 부모 tsx)에 제 Slider가 import 되지 않았었다는 사실만 빼면 말입니다.** 정말 말도 안 되는 실수를 했었습니다. 부모 tsx에 제가 Slider를 컴포넌트화 하기 전에 생성해 놓은 같은 이름의 styled 요소가 있었습니다...! 그걸 지우지 않은 상태였기에 부모 컴포넌트에 아무리 Slider를 렌더링해봤자, 렌더링 되는 것은 컴포넌트화 한 Slider가 아닌, 같은 이름의 styled 요소입니다. 실수를 깨닫고, 우선 Slider 컴포넌트의 export 이름을 MySlider로 변경했습니다
 
 <br/>
 
@@ -128,4 +126,4 @@ function Slider({ movies }: ISliderProps) {
 
 &nbsp;&nbsp; 코드도 깔끔해졌습니다.
 
-&nbsp;&nbsp; 정말 말도 안 되는, 해서는 안 되는 실수였습니다만, 어찌 됐든 해결해서 정말 기쁘네요. 슬라이더를 컴포넌트화 했으니, 슬라이더를 여럿 더 추가하고, 기능도 확장해나가겠습니다.
+&nbsp;&nbsp; 해서는 안 되는 실수였습니다만, 어찌 됐든 해결해서 정말 기쁘네요. 슬라이더를 컴포넌트화 했으니, 슬라이더를 여럿 더 추가하고, 기능도 확장해나가겠습니다.
