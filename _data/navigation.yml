@@ -82,6 +82,8 @@ categories:
         url: /categories/python/intermediate/
       - title: Master
         url: /categories/python/master/
+      - title: Django
+        url: /categories/python/django/
 
   - title: Algorithm
     children:
