@@ -1,13 +1,13 @@
 ---
-title: 턴제 RPG (Proto)
+title: 콘솔로 즐기는 턴제 RPG (0)
 tags: [Sparta, Python, Flask]
 sidebar:
   nav: categories
 permalink: "/categories/sparta/team-projects/turn-based-game_0"
-# article_header:
-#   type: cover
-#   image:
-#     src:
+article_header:
+  type: cover
+  image:
+    src:
 ---
 
 <!-- more -->
@@ -70,4 +70,4 @@ permalink: "/categories/sparta/team-projects/turn-based-game_0"
 
 ### 4. 결론
 
-&nbsp;&nbsp; 저는 실제로 클래스를 이론으로만 알아 왔고, 기껏해야 개념서의 기본 문제들을 풀 때만 사용해 봤지, 실제로 클래스를 활용해 본 적이 없었습니다. 그래서 클래스를 설계하고, 객체를 생성하고, 서로 다른 클래스에 의해 파생된 객체들끼리 데이터를 송수신하는 과정 등등은 처음 해보는 것이었기에 뜻깊었습니다.
+&nbsp;&nbsp; 저는 여태까지 클래스를 머리로만 알고 있었고, 기껏해야 개념서의 기본 문제들을 풀 때만 사용해 봤었습니다. 클래스를 가지고 실제 서비스를 구현해 본 적은 없었는 것입니다. 때문에 클래스를 설계하고, 객체를 생성하고, 서로 다른 클래스에 의해 파생된 객체들끼리 데이터를 송수신하는 과정 등등은 처음 해보는 것이었기에 뜻깊었습니다. 내일부터 팀 프로젝트로서 우리가 만든 프로토타입 격의 콘솔 바탕 턴제 RPG를 고도화하는 과제가 주어집니다만, 벌써 흥미진진합니다.
