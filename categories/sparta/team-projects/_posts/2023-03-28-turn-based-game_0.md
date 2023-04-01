@@ -1,6 +1,6 @@
 ---
 title: 콘솔로 즐기는 턴제 RPG (0)
-tags: [Sparta, Python, Flask]
+tags: [Sparta, Python]
 sidebar:
   nav: categories
 permalink: "/categories/sparta/team-projects/turn-based-game_0"
