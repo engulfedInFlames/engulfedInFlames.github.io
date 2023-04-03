@@ -1,5 +1,5 @@
 ---
-title: 콘솔로 즐기는 턴제 RPG (3) &#58; Cleanup 및 후일담
+title: 콘솔로 즐기는 턴제 RPG (3) &#58; Cleanup
 tags: [Sparta, Python]
 sidebar:
   nav: categories

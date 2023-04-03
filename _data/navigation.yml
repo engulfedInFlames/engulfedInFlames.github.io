@@ -62,9 +62,6 @@ categories:
       - title: Team Projects
         url: /categories/sparta/team-projects/
 
-      - title: SQL
-        url: /categories/sparta/sql/ # 이와 같이 고유 주소를 설정하면 Jekyll이 sparta-sql 폴더 내의 index.html을 렌더링해준다.
-
   - title: Clone Coding
     children:
       - title: Webflix
