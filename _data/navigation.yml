@@ -119,3 +119,5 @@ categories:
     children:
       - title: Deploy
         url: /categories/docs/deploy/
+      - title: Git&Github
+        url: /categories/docs/git/

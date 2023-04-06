@@ -1,5 +1,5 @@
 ---
-title: AWS에 프로젝트 배포하기
+title: AWS에 앱 배포하기
 tags: [AWS, Deploy]
 sidebar:
   nav: categories
