@@ -1,5 +1,5 @@
 ---
-title: 콘솔로 즐기는 턴제 RPG (0)
+title: 콘솔로 즐기는 턴제 RPG (0) &#58; 개인 과제 완성
 tags: [Sparta, Python]
 sidebar:
   nav: categories

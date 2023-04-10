@@ -1,5 +1,5 @@
 ---
-title: 콘솔로 즐기는 턴제 RPG (1)
+title: 콘솔로 즐기는 턴제 RPG (1) &58; 팀 프로젝트 시작
 tags: [Sparta, Python]
 sidebar:
   nav: categories
