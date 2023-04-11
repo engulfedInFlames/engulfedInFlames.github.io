@@ -1,5 +1,5 @@
 ---
-title: 콘솔로 즐기는 턴제 RPG (3) &#58; Cleanup
+title: 콘솔로 즐기는 턴제 RPG (3) &#58; Refactoring
 tags: [Sparta, Python]
 sidebar:
   nav: categories
