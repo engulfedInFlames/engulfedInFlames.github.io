@@ -3,7 +3,7 @@ title: 팀 소개 웹 페이지 만들기
 tags: [Sparta, Python, Flask]
 sidebar:
   nav: categories
-permalink: "/categories/sparta/team-projects/introduce-team"
+permalink: "/categories/sparta/projects/introduce-team"
 # article_header:
 #   type: cover
 #   image:

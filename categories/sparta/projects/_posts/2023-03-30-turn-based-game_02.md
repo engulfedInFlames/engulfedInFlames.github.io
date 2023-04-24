@@ -3,7 +3,7 @@ title: 콘솔로 즐기는 턴제 RPG (2) &#58; 팀 프로젝트 완성
 tags: [Sparta, Python]
 sidebar:
   nav: categories
-permalink: "/categories/sparta/team-projects/turn-based-game_2"
+permalink: "/categories/sparta/projects/turn-based-game_2"
 article_header:
   type: cover
   image:

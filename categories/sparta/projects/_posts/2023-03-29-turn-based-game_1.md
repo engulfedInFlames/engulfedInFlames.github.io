@@ -3,7 +3,7 @@ title: 콘솔로 즐기는 턴제 RPG (1) &58; 팀 프로젝트 시작
 tags: [Sparta, Python]
 sidebar:
   nav: categories
-permalink: "/categories/sparta/team-projects/turn-based-game_1"
+permalink: "/categories/sparta/projects/turn-based-game_1"
 article_header:
   type: cover
   image:

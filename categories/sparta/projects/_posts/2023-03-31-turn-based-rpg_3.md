@@ -3,7 +3,7 @@ title: 콘솔로 즐기는 턴제 RPG (3) &#58; Refactoring
 tags: [Sparta, Python]
 sidebar:
   nav: categories
-permalink: "/categories/sparta/team-projects/turn-based-game_3"
+permalink: "/categories/sparta/projects/turn-based-game_3"
 article_header:
   type: cover
   image:
