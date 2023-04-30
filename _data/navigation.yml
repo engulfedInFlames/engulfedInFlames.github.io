@@ -87,14 +87,12 @@ categories:
       - title: By Python
         url: /categories/algorithm/python/
 
-  - title: Typescript
-
-  - title: Other Programming Langs
+  - title: Other Langs
     children:
       - title: React
         url: /categories/others/react/
-      - title: SCSS
-        url: /categories/others/scss/
+      - title: Typescript
+        url: /categories/others/typescript
       - title: Kotlin
         url: /categories/others/kotlin/
 
@@ -102,13 +100,6 @@ categories:
     children:
       - title: MySQL
         url: /categories/dbms/mysql/
-
-  - title: Blog Customization
-    children:
-      - title: Jekyll
-        url: /categories/customization/jekyll/
-      - title: Markdown
-        url: /categories/customization/markdown/
 
   - title: Chapt GPT
     children:
