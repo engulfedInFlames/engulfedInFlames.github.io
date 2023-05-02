@@ -91,10 +91,6 @@ categories:
     children:
       - title: React
         url: /categories/others/react/
-      - title: Typescript
-        url: /categories/others/typescript
-      - title: Kotlin
-        url: /categories/others/kotlin/
 
   - title: DBMS
     children:
