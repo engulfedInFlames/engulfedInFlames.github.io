@@ -104,6 +104,8 @@ categories:
 
   - title: DOCS
     children:
+      - title: Gatsby
+        url: /categories/docs/gatsby/
       - title: Deploy
         url: /categories/docs/deploy/
       - title: Git&Github
