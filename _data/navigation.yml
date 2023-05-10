@@ -86,6 +86,8 @@ categories:
     children:
       - title: By Python
         url: /categories/algorithm/python/
+      - title: Machine Learning
+        url: /categories/algorithm/ml/
 
   - title: Other Langs
     children:
