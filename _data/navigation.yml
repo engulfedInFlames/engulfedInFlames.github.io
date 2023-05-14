@@ -112,3 +112,5 @@ categories:
         url: /categories/docs/deploy/
       - title: Git&Github
         url: /categories/docs/git/
+      - title: Notebook
+        url: /categories/docs/notebook/
