@@ -62,15 +62,6 @@ categories:
       - title: Projects
         url: /categories/sparta/projects/
 
-  - title: Clone Coding
-    children:
-      - title: Webflix
-        url: /categories/cloning/webflix/
-      - title: Wetube
-        url: /categories/cloning/wetube/
-      - title: Noom
-        url: /categories/cloning/noom/
-
   - title: Python
     children:
       - title: Basic
@@ -89,11 +80,6 @@ categories:
       - title: Machine Learning
         url: /categories/algorithm/ml/
 
-  - title: Other Langs
-    children:
-      - title: React
-        url: /categories/others/react/
-
   - title: DBMS
     children:
       - title: MySQL
@@ -104,10 +90,19 @@ categories:
       - title: GPT-4
         url: /categories/gpt4/
 
-  - title: DOCS
+  - title: Clone Coding
+    children:
+      - title: Webflix
+        url: /categories/cloning/webflix/
+      - title: Noom
+        url: /categories/cloning/noom/
+
+  - title: Docs
     children:
       - title: Gatsby
         url: /categories/docs/gatsby/
+      - title: React
+        url: /categories/docs/react/
       - title: Deploy
         url: /categories/docs/deploy/
       - title: Git&Github
