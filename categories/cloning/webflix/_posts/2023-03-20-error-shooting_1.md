@@ -29,7 +29,7 @@ article_header:
 <br/>
 
 <div align="center">
-<img src="/imgs/my_projects/webflix/webflix_slider.png" alt="webflix slider capture" width="100%"/>
+<img src="/assets/images/cloning/webflix/webflix_slider.png" alt="webflix slider capture" width="100%"/>
 </div>
 
 <br/>
@@ -89,7 +89,7 @@ function Slider({ movies }: ISliderProps) {
 <br/>
 
 <div align="center">
-<img src="/imgs/my_projects/webflix/type_error.png" alt="a type error" width="600px"/>
+<img src="/assets/images/cloning/webflix/type_error.png" alt="a type error" width="600px"/>
 </div>
 
 <br/>
@@ -99,7 +99,7 @@ function Slider({ movies }: ISliderProps) {
 <br/>
 
 <div align="center">
-<img src="/imgs/my_projects/webflix/shoot_type_error.png" alt="type error shooted" width="600px"/>
+<img src="/assets/images/cloning/webflix/shoot_type_error.png" alt="type error shooted" width="600px"/>
 </div>
 
 <br/>
@@ -109,7 +109,7 @@ function Slider({ movies }: ISliderProps) {
 <br/>
 
 <div align="center">
-<img src="/imgs/my_projects/webflix/webflix_homepage.png" alt="type error shooted" width="100%"/>
+<img src="/assets/images/cloning/webflix/webflix_homepage.png" alt="type error shooted" width="100%"/>
 </div>
 
 <br/>
@@ -119,7 +119,7 @@ function Slider({ movies }: ISliderProps) {
 <br/>
 
 <div align="center">
-<img src="/imgs/my_projects/webflix/home_code.png" alt="type error shooted" width="600px"/>
+<img src="/assets/images/cloning/webflix/home_code.png" alt="type error shooted" width="600px"/>
 </div>
 
 <br/>

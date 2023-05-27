@@ -1,0 +1,17 @@
+---
+title: Why NGiNX?
+tags: [nginx]
+sidebar:
+  nav: categories
+permalink: "/categories/sparta/what-i-learned/4"
+article_header:
+  type: cover
+  image:
+    src:
+---
+
+<!-- more-->
+
+<br/>
+
+&ensp;

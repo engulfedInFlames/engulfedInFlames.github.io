@@ -23,7 +23,7 @@ article_header:
 <br/>
 
 <div align="center">
-<img src="/imgs/sparta/team-projects/turn-based-rpg_1.png" style="height: 160px"/>
+<img src="/assets/images/sparta/projects/turn-based-rpg_1.png" style="height: 160px"/>
 </div>
 
 &ensp; 우선, player 클래스와 monster 클래스를 서로 다른 파일에 작성하고, creator라는 폴더에 둡니다. scripts에는 게임의 인트로나 배경 설명을 위한 script 파일들을 둡니다. 기본적으로 Main dir에 있는 app.py에서 script 출력부터 player 및 monster 생성과 전투 구현까지를 관리합니다. 내일부터 팀 프로젝트로 우리가 만든 게임을 고도화해야 하기 때문에 재사용 가능성을 높이고자 이 같이 했습니다. 다음은 app.py의 코드 일부입니다.
@@ -31,7 +31,7 @@ article_header:
 <br/>
 
 <div align="center">
-<img src="/imgs/sparta/team-projects/turn-based-rpg_2.png" style="width: 600px"/>
+<img src="/assets/images/sparta/projects/turn-based-rpg_2.png" style="width: 600px"/>
 </div>
 
 &ensp; 위의 코드들은 다음과 같은 기능을 합니다.
@@ -49,7 +49,7 @@ article_header:
 <br/>
 
 <div align="center">
-<img src="/imgs/sparta/team-projects/turn-based-rpg_3.png" style="width: 600px"/>
+<img src="/assets/images/sparta/projects/turn-based-rpg_3.png" style="width: 600px"/>
 </div>
 
 &ensp; 전투 구현은 while문을 사용했습니다. 매턴 마다 플레이어 또는 몬스터의 생사여부(?)를 확인하고, 둘 중 하나라도 죽게 되면 gameover 변수에 참값을 할당하여 게임은 종료됩니다.
@@ -63,7 +63,7 @@ article_header:
 <br/>
 
 <div align="center">
-<img src="/imgs/sparta/team-projects/turn-based-rpg_4.png" style="width: 600px"/>
+<img src="/assets/images/sparta/projects/turn-based-rpg_4.png" style="width: 600px"/>
 </div>
 
 &ensp; 플레이어 클래스의 내부 변수는 위와 같습니다. 변수명 앞에 "\_"를 붙이면 protected 변수가 된다고 해서 다 일일이 그렇게 만들었습니다만, 강제성은 없다는 것을 뒤늦게 알았습니다. print() 함수로 직접 접근해도 정보가 잘 출력이 됩니다... 몬스터 클래스도 이와 마찬가지로 설계했습니다. 여하튼 클래스는 일단 독립적이면서, 캡슐화되어 있으면 좋다고 믿기 때문에 내일부터 진행될 팀 프로젝트에서도 이렇게 밀고 나가야겠습니다. 팀원들을 잘 납득시키는 것은 덤일 것입니다.
