@@ -8,201 +8,25 @@ sidebar:
 ---
 
 <body>
+  <br />
   <h1>{{page.title}}</h1>
+  <br />
   <div class="article-list items items--divided">
-    <!-- list start -->
-    <!--
-      Linux
-    -->
-    <div class="item" itemscope itemtype="http://schema.org/BlogPosting">
-      <div class="item__image">
-        <a href="linux_1">
-          <img
-            class="image image--xs"
-            src="/assets/images/logo/linux-logo-only.png"
-          />
-        </a>
+    <div class="article-list items items--divided">
+      {% for article in site.data.categories.docs.notebook.articles %}
+      <div class="item" itemscope itemtype="http://schema.org/BlogPosting">
+        <div class="item__image">
+          <a href="{{ article.url }}">
+            <img class="image image--xs" src="{{article.src}}" />
+          </a>
+        </div>
+        <div class="item__content" style="display: flex; align-items: center">
+          <a href="{{ article.url }}">
+            <h4 class="item__header">{{ article.title }}</h4>
+          </a>
+        </div>
       </div>
-      <div class="item__content" style="display: flex; align-items: center">
-        <a href="linux_1">
-          <h4 class="item__header">리눅스 (1) : Boot with systemd</h4>
-        </a>
-      </div>
+      {% endfor %}
     </div>
-    <!--
-      Docker
-    -->
-    <div class="item" itemscope itemtype="http://schema.org/BlogPosting">
-      <div class="item__image">
-        <a href="docker_3">
-          <img
-            class="image image--xs"
-            src="/assets/images/logo/docker-logo-only.png"
-          />
-        </a>
-      </div>
-      <div class="item__content" style="display: flex; align-items: center">
-        <a href="docker_3">
-          <h4 class="item__header">도커 설치하기 (3) :</h4>
-        </a>
-      </div>
-    </div>
-    <div class="item" itemscope itemtype="http://schema.org/BlogPosting">
-      <div class="item__image">
-        <a href="docker_2">
-          <img
-            class="image image--xs"
-            src="/assets/images/logo/docker-logo-only.png"
-          />
-        </a>
-      </div>
-      <div class="item__content" style="display: flex; align-items: center">
-        <a href="docker_2">
-          <h4 class="item__header">도커 (2) : 도커 그룹 및 유저 설정하기</h4>
-        </a>
-      </div>
-    </div>
-    <div class="item" itemscope itemtype="http://schema.org/BlogPosting">
-      <div class="item__image">
-        <a href="docker_1">
-          <img
-            class="image image--xs"
-            src="/assets/images/logo/docker-logo-only.png"
-          />
-        </a>
-      </div>
-      <div class="item__content" style="display: flex; align-items: center">
-        <a href="docker_1">
-          <h4 class="item__header">도커 (1) : 도커 설치하기</h4>
-        </a>
-      </div>
-    </div>
-    <!--
-      ML
-    -->
-    <div class="item" itemscope itemtype="http://schema.org/BlogPosting">
-      <div class="item__image">
-        <a href="ml_4">
-          <img
-            class="image image--xs"
-            src="/assets/images/logo/tf-logo-only.png"
-          />
-        </a>
-      </div>
-      <div class="item__content" style="display: flex; align-items: center">
-        <a href="ml_4">
-          <h4 class="item__header">ML 기본 다잡기 (5) : 기초 통계 개념 정리</h4>
-        </a>
-      </div>
-    </div>
-    <div class="item" itemscope itemtype="http://schema.org/BlogPosting">
-      <div class="item__image">
-        <a href="ml_4">
-          <img
-            class="image image--xs"
-            src="/assets/images/logo/tf-logo-only.png"
-          />
-        </a>
-      </div>
-      <div class="item__content" style="display: flex; align-items: center">
-        <a href="ml_4">
-          <h4 class="item__header">ML 기본 다잡기 (4) : 텐서 다루기</h4>
-        </a>
-      </div>
-    </div>
-    <div class="item" itemscope itemtype="http://schema.org/BlogPosting">
-      <div class="item__image">
-        <a href="ml_3">
-          <img
-            class="image image--xs"
-            src="/assets/images/logo/tf-logo-only.png"
-          />
-        </a>
-      </div>
-      <div class="item__content" style="display: flex; align-items: center">
-        <a href="ml_3">
-          <h4 class="item__header">ML 기본 다잡기 (3) : 텐서 다루기</h4>
-        </a>
-      </div>
-    </div>
-    <div class="item" itemscope itemtype="http://schema.org/BlogPosting">
-      <div class="item__image">
-        <a href="ml_2">
-          <img
-            class="image image--xs"
-            src="/assets/images/logo/tf-logo-only.png"
-          />
-        </a>
-      </div>
-      <div class="item__content" style="display: flex; align-items: center">
-        <a href="ml_2">
-          <h4 class="item__header">ML 기본 다잡기 (2) : 텐서란?</h4>
-        </a>
-      </div>
-    </div>
-    <div class="item" itemscope itemtype="http://schema.org/BlogPosting">
-      <div class="item__image">
-        <a href="ml_1">
-          <img
-            class="image image--xs"
-            src="/assets/images/logo/tf-logo-only.png"
-          />
-        </a>
-      </div>
-      <div class="item__content" style="display: flex; align-items: center">
-        <a href="ml_1">
-          <h4 class="item__header">ML 기본 다잡기 (1) : ML 기본 개념 정리</h4>
-        </a>
-      </div>
-    </div>
-    <!--     
-     AWS 
-      -->
-    <div class="item" itemscope itemtype="http://schema.org/BlogPosting">
-      <div class="item__image">
-        <a href="aws_3">
-          <img
-            class="image image--xs"
-            src="/assets/images/logo/aws-logo-only.png"
-          />
-        </a>
-      </div>
-      <div class="item__content" style="display: flex; align-items: center">
-        <a href="aws_3">
-          <h4 class="item__header">AWS 기본 다잡기 (3) : 기본 개념 정리</h4>
-        </a>
-      </div>
-    </div>
-    <div class="item" itemscope itemtype="http://schema.org/BlogPosting">
-      <div class="item__image">
-        <a href="aws_2">
-          <img
-            class="image image--xs"
-            src="/assets/images/logo/aws-logo-only.png"
-          />
-        </a>
-      </div>
-      <div class="item__content" style="display: flex; align-items: center">
-        <a href="aws_2">
-          <h4 class="item__header">AWS 기본 다잡기 (2) : 기본 개념 정리</h4>
-        </a>
-      </div>
-    </div>
-    <div class="item" itemscope itemtype="http://schema.org/BlogPosting">
-      <div class="item__image">
-        <a href="aws_1">
-          <img
-            class="image image--xs"
-            src="/assets/images/logo/aws-logo-only.png"
-          />
-        </a>
-      </div>
-      <div class="item__content" style="display: flex; align-items: center">
-        <a href="aws_1">
-          <h4 class="item__header">AWS 기본 다잡기 (1) : 기본 개념 정리</h4>
-        </a>
-      </div>
-    </div>
-    <!-- list end -->
   </div>
 </body>
