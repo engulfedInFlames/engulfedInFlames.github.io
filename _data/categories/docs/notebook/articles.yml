@@ -2,15 +2,15 @@
   url: "linux_1"
   src: "/assets/images/docs/notebook/linux-logo-only.png"
 
-- title: "도커 (5) : "
+- title: "도커 (5) : 도커 CLI 치트 시트"
   url: "docker_5"
   src: "/assets/images/docs/notebook/docker-logo-only.png"
 
-- title: "도커 (4) : "
+- title: "도커 (4) : 도커 8원칙"
   url: "docker_4"
   src: "/assets/images/docs/notebook/docker-logo-only.png"
 
-- title: "도커 (3) : YAML 파헤치기"
+- title: "도커 (3) : 도커와 도커 파일"
   url: "docker_3"
   src: "/assets/images/docs/notebook/docker-logo-only.png"
 
