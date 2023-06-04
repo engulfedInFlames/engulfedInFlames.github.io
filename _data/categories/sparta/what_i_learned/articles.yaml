@@ -1,0 +1,15 @@
+- title: "DevOps란"
+  url: "4"
+  src: "/assets/images/logo/tag-logo.png"
+
+- title: "페이지 렌더링 : SSR & CSR"
+  url: "3"
+  src: "/assets/images/logo/tag-logo.png"
+
+- title: "예쁜 말"
+  url: "2"
+  src: "/assets/images/logo/tag-logo.png"
+
+- title: "Client의 의미"
+  url: "1"
+  src: "/assets/images/logo/tag-logo.png"

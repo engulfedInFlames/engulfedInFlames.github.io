@@ -8,39 +8,23 @@ sidebar:
 ---
 
 <body>
+  <br />
   <h1>{{page.title}}</h1>
+  <br />
   <div class="article-list items items--divided">
-    <!--  list start -->
+    {% for article in site.data.categories.docs.git.articles %}
     <div class="item" itemscope itemtype="http://schema.org/BlogPosting">
       <div class="item__image">
-        <a href="2">
-          <img
-            class="image image--xs"
-            src="https://git-scm.com/images/logos/logomark-orange@2x.png"
-          />
+        <a href="{{ article.url }}">
+          <img class="image image--xs" src="{{article.src}}" />
         </a>
       </div>
       <div class="item__content" style="display: flex; align-items: center">
-        <a href="2">
-          <h4 class="item__header">Git (2) &#58; 브랜치 전략</h4>
+        <a href="{{ article.url }}">
+          <h4 class="item__header">{{ article.title }}</h4>
         </a>
       </div>
     </div>
-    <div class="item" itemscope itemtype="http://schema.org/BlogPosting">
-      <div class="item__image">
-        <a href="1">
-          <img
-            class="image image--xs"
-            src="https://git-scm.com/images/logos/logomark-orange@2x.png"
-          />
-        </a>
-      </div>
-      <div class="item__content" style="display: flex; align-items: center">
-        <a href="1">
-          <h4 class="item__header">Git (1) &#58; reset, revert, stash</h4>
-        </a>
-      </div>
-    </div>
-    <!-- list end -->
+    {% endfor %}
   </div>
 </body>

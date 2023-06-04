@@ -8,47 +8,23 @@ sidebar:
 ---
 
 <body>
+  <br />
   <h1>{{page.title}}</h1>
+  <br />
   <div class="article-list items items--divided">
-      <!--  list start -->
-      <div class="item" itemscope itemtype="http://schema.org/BlogPosting">
-        <div class="item__image">
-          <a href="error-shooting_1">
-            <img class="image image--xs" src="/assets/images/logo/tag-logo.png" />
-          </a>
-        </div>
+    {% for article in site.data.categories.cloning.webflix.articles %}
+    <div class="item" itemscope itemtype="http://schema.org/BlogPosting">
+      <div class="item__image">
+        <a href="{{ article.url }}">
+          <img class="image image--xs" src="{{article.src}}" />
+        </a>
+      </div>
       <div class="item__content" style="display: flex; align-items: center">
-        <a href="error-shooting_1">
-          <h4 class="item__header">WEBFLIX Error Shooting (1) </h4>
+        <a href="{{ article.url }}">
+          <h4 class="item__header">{{ article.title }}</h4>
         </a>
       </div>
     </div>
-      <!--  Error Shooting -->
-    <div class="article-list items items--divided">
-      <div class="item" itemscope itemtype="http://schema.org/BlogPosting">
-        <div class="item__image">
-          <a href="2">
-            <img class="image image--xs" src="/assets/images/logo/tag-logo.png" />
-          </a>
-        </div>
-        <div class="item__content" style="display: flex; align-items: center">
-          <a href="2">
-            <h4 class="item__header">Further Develop WEBFLIX (2)</h4>
-          </a>
-        </div>
-      </div>
-      <div class="item" itemscope itemtype="http://schema.org/BlogPosting">
-          <div class="item__image">
-            <a href="1">
-              <img class="image image--xs" src="/assets/images/logo/tag-logo.png" />
-            </a>
-          </div>
-          <div class="item__content" style="display: flex; align-items: center">
-            <a href="1">
-              <h4 class="item__header">Further Develop WEBFLIX (1)</h4>
-            </a>
-          </div>
-        </div>
-      <!-- list end -->
+    {% endfor %}
   </div>
 </body>

@@ -1,0 +1,23 @@
+- title: "Django (6) : request.user"
+  url: "6"
+  src: "/assets/images/python/logo/django-logo-only.png"
+
+- title: "Django (5) : API & REST?"
+  url: "5"
+  src: "/assets/images/python/logo/django-logo-only.png"
+
+- title: "Django (4) : Request & Response?"
+  url: "4"
+  src: "/assets/images/python/logo/django-logo-only.png"
+
+- title: "Django (3) : SASS/SCSS 적용하기"
+  url: "3"
+  src: "/assets/images/python/logo/django-logo-only.png"
+
+- title: "Django (2) : ORM & MVT"
+  url: "2"
+  src: "/assets/images/python/logo/django-logo-only.png"
+
+- title: "Django (1) : Why Django?"
+  url: "1"
+  src: "/assets/images/python/logo/django-logo-only.png"

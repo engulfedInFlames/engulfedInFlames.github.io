@@ -1,0 +1,35 @@
+- title: "그래프QL로 이미지 데이터 퀘리하기"
+  url: "9"
+  src: "/assets/images/docs/gatsby/logo/gatsby-logo-only.png"
+
+- title: "그래프QL로 파일 읽기"
+  url: "8"
+  src: "/assets/images/docs/gatsby/logo/gatsby-logo-only.png"
+
+- title: "With GraphQL"
+  url: "7"
+  src: "/assets/images/docs/gatsby/logo/gatsby-logo-only.png"
+
+- title: "CSS & Static Files"
+  url: "6"
+  src: "/assets/images/docs/gatsby/logo/gatsby-logo-only.png"
+
+- title: "라우팅(Routing)"
+  url: "5"
+  src: "/assets/images/docs/gatsby/logo/gatsby-logo-only.png"
+
+- title: "Jekyll에서 Gatsby로 블로그 이전 (4) : Chakra UI"
+  url: "4"
+  src: "/assets/images/docs/gatsby/logo/gatsby-logo-only.png"
+
+- title: "Jekyll에서 Gatsby로 블로그 이전 (3) : Deploy"
+  url: "3"
+  src: "/assets/images/docs/gatsby/logo/gatsby-logo-only.png"
+
+- title: "Jekyll에서 Gatsby로 블로그 이전 (2) : Build"
+  url: "2"
+  src: "/assets/images/docs/gatsby/logo/gatsby-logo-only.png"
+
+- title: "Jekyll에서 Gatsby로 블로그 이전 (1) : Build"
+  url: "1"
+  src: "/assets/images/docs/gatsby/logo/gatsby-logo-only.png"

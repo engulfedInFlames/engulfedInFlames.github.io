@@ -1,0 +1,59 @@
+- title: "Basic Python (13) : Title Undecided"
+  url: "13"
+  src: "/assets/images/python/logo/python-logo-only.png"
+
+- title: "Basic Python (12) : Title Undecided"
+  url: "12"
+  src: "/assets/images/python/logo/python-logo-only.png"
+
+- title: "Basic Python (11) : Open File"
+  url: "11"
+  src: "/assets/images/python/logo/python-logo-only.png"
+
+- title: "Basic Python (10) : Async I/O Part 3 - 코루틴(Coroutines)"
+  url: "10"
+  src: "/assets/images/python/logo/python-logo-only.png"
+
+- title: "Asnyc I/O Appendix : Try Async I/O in Python"
+  url: "9-2"
+  src: "/assets/images/python/logo/python-logo-only.png"
+
+- title: "Asnyc I/O Appendix : Selectors, Reactors, and Proactors"
+  url: "9-1"
+  src: "/assets/images/python/logo/python-logo-only.png"
+
+- title: "Basic Python (9) : Async I/O Part 2 - 이벤트 루프"
+  url: "9"
+  src: "/assets/images/python/logo/python-logo-only.png"
+
+- title: "Basic Python (8) : Async I/O Part 1 - 병렬 처리의 의미 및 멀티 스레딩과 Async의 차이"
+  url: "8"
+  src: "/assets/images/python/logo/python-logo-only.png"
+
+- title: "Basic Python (7) : Async"
+  url: "7"
+  src: "/assets/images/python/logo/python-logo-only.png"
+
+- title: "Basic Python (6) : cls & self"
+  url: "6"
+  src: "/assets/images/python/logo/python-logo-only.png"
+
+- title: "Basic Python (5) : env"
+  url: "5"
+  src: "/assets/images/python/logo/python-logo-only.png"
+
+- title: "Basic Python (4) : Import"
+  url: "4"
+  src: "/assets/images/python/logo/python-logo-only.png"
+
+- title: "Basic Python (3) : "
+  url: "3"
+  src: "/assets/images/python/logo/python-logo-only.png"
+
+- title: "Basic Python (2) : list, set, tuple, dict"
+  url: "2"
+  src: "/assets/images/python/logo/python-logo-only.png"
+
+- title: "Basic Python (1) : 파이썬 사전 지식과 Sequence Data Type"
+  url: "1"
+  src: "/assets/images/python/logo/python-logo-only.png"

@@ -8,99 +8,23 @@ sidebar:
 ---
 
 <body>
+  <br />
   <h1>{{page.title}}</h1>
+  <br />
   <div class="article-list items items--divided">
-    <!--  list start -->
+    {% for article in site.data.categories.python.django.articles %}
     <div class="item" itemscope itemtype="http://schema.org/BlogPosting">
       <div class="item__image">
-        <a href="6">
-          <img
-            class="image image--xs"
-            src="/assets/images/python/logo/django-logo-only.png"
-          />
+        <a href="{{ article.url }}">
+          <img class="image image--xs" src="{{article.src}}" />
         </a>
       </div>
       <div class="item__content" style="display: flex; align-items: center">
-        <a href="6">
-          <h4 class="item__header">Django (6) : request.user</h4>
+        <a href="{{ article.url }}">
+          <h4 class="item__header">{{ article.title }}</h4>
         </a>
       </div>
     </div>
-    <div class="item" itemscope itemtype="http://schema.org/BlogPosting">
-      <div class="item__image">
-        <a href="5">
-          <img
-            class="image image--xs"
-            src="/assets/images/python/logo/django-logo-only.png"
-          />
-        </a>
-      </div>
-      <div class="item__content" style="display: flex; align-items: center">
-        <a href="5">
-          <h4 class="item__header">Django (5) : API & REST</h4>
-        </a>
-      </div>
-    </div>
-    <div class="item" itemscope itemtype="http://schema.org/BlogPosting">
-      <div class="item__image">
-        <a href="4">
-          <img
-            class="image image--xs"
-            src="/assets/images/python/logo/django-logo-only.png"
-          />
-        </a>
-      </div>
-      <div class="item__content" style="display: flex; align-items: center">
-        <a href="4">
-          <h4 class="item__header">Django (4) : Request & Response</h4>
-        </a>
-      </div>
-    </div>
-    <div class="item" itemscope itemtype="http://schema.org/BlogPosting">
-      <div class="item__image">
-        <a href="3">
-          <img
-            class="image image--xs"
-            src="/assets/images/logo/sass-logo-only.png"
-          />
-        </a>
-      </div>
-      <div class="item__content" style="display: flex; align-items: center">
-        <a href="3">
-          <h4 class="item__header">Django (3) : SASS/SCSS 적용하기</h4>
-        </a>
-      </div>
-    </div>
-    <div class="item" itemscope itemtype="http://schema.org/BlogPosting">
-      <div class="item__image">
-        <a href="2">
-          <img
-            class="image image--xs"
-            src="/assets/images/python/logo/django-logo-only.png"
-          />
-        </a>
-      </div>
-      <div class="item__content" style="display: flex; align-items: center">
-        <a href="2">
-          <h4 class="item__header">Django (2) : ORM & MVT</h4>
-        </a>
-      </div>
-    </div>
-    <div class="item" itemscope itemtype="http://schema.org/BlogPosting">
-      <div class="item__image">
-        <a href="1">
-          <img
-            class="image image--xs"
-            src="/assets/images/python/logo/django-logo-only.png"
-          />
-        </a>
-      </div>
-      <div class="item__content" style="display: flex; align-items: center">
-        <a href="1">
-          <h4 class="item__header">Django (1) : Why Django?</h4>
-        </a>
-      </div>
-    </div>
-    <!-- list end -->
+    {% endfor %}
   </div>
 </body>

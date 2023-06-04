@@ -1,0 +1,15 @@
+- title: "스택, 큐, 딕셔너리"
+  url: "4"
+  src: "/assets/images/algorithm/python/logo.png"
+
+- title: "정렬과 시간복잡도"
+  url: "3"
+  src: "/assets/images/algorithm/python/logo.png"
+
+- title: "알고리즘 문제풀이 (2)"
+  url: "2"
+  src: "/assets/images/algorithm/python/logo.png"
+
+- title: "알고리즘 문제풀이 (1)"
+  url: "1"
+  src: "/assets/images/algorithm/python/logo.png"

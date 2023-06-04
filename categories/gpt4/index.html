@@ -8,54 +8,23 @@ sidebar:
 ---
 
 <body>
+  <br />
   <h1>{{page.title}}</h1>
+  <br />
   <div class="article-list items items--divided">
-    <!--  list start -->
+    {% for article in site.data.categories.gpt4.articles %}
     <div class="item" itemscope itemtype="http://schema.org/BlogPosting">
       <div class="item__image">
-        <a href="auto-gpt">
-          <img
-            class="image image--xs"
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/ChatGPT_logo.svg/1024px-ChatGPT_logo.svg.png"
-          />
+        <a href="{{ article.url }}">
+          <img class="image image--xs" src="{{article.src}}" />
         </a>
       </div>
       <div class="item__content" style="display: flex; align-items: center">
-        <a href="auto-gpt">
-          <h4 class="item__header">AUTO GPT</h4>
+        <a href="{{ article.url }}">
+          <h4 class="item__header">{{ article.title }}</h4>
         </a>
       </div>
     </div>
-    <div class="item" itemscope itemtype="http://schema.org/BlogPosting">
-      <div class="item__image">
-        <a href="peek-gpt4_2">
-          <img
-            class="image image--xs"
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/ChatGPT_logo.svg/1024px-ChatGPT_logo.svg.png"
-          />
-        </a>
-      </div>
-      <div class="item__content" style="display: flex; align-items: center">
-        <a href="peek-gpt4_2">
-          <h4 class="item__header">GPT-4 들여다보기 (2) : 맹신은 금물</h4>
-        </a>
-      </div>
-    </div>
-    <div class="item" itemscope itemtype="http://schema.org/BlogPosting">
-      <div class="item__image">
-        <a href="peek-gpt4_1">
-          <img
-            class="image image--xs"
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/ChatGPT_logo.svg/1024px-ChatGPT_logo.svg.png"
-          />
-        </a>
-      </div>
-      <div class="item__content" style="display: flex; align-items: center">
-        <a href="peek-gpt4_1">
-          <h4 class="item__header">GPT-4 들여다보기 (1) : 전지전능</h4>
-        </a>
-      </div>
-    </div>
-    <!-- list end -->
+    {% endfor %}
   </div>
 </body>
