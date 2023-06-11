@@ -1,15 +1,23 @@
+- title: "What is Gunicorn?"
+  url: "gunicorn"
+  src: "/assets/images/sparta/logo/gunicorn-icon.svg"
+
+- title: "What is NGINX?"
+  url: "nginx"
+  src: "/assets/images/sparta/logo/nginx-icon.svg"
+
 - title: "DevOps란"
-  url: "4"
+  url: "devops"
   src: "/assets/images/logo/tag-logo.png"
 
 - title: "페이지 렌더링 : SSR & CSR"
-  url: "3"
+  url: "ssr&csr"
   src: "/assets/images/logo/tag-logo.png"
 
 - title: "예쁜 말"
-  url: "2"
+  url: "be-polite"
   src: "/assets/images/logo/tag-logo.png"
 
 - title: "Client의 의미"
-  url: "1"
+  url: "client"
   src: "/assets/images/logo/tag-logo.png"
