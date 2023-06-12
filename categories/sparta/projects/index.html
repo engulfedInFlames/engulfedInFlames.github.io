@@ -14,11 +14,11 @@ sidebar:
   <div class="article-list items items--divided">
     {% for article in site.data.categories.sparta.projects.articles %}
     <div class="item" itemscope itemtype="http://schema.org/BlogPosting">
-      <!-- <div class="item__image">
+      <div class="item__image">
         <a href="{{ article.url }}">
           <img class="image image--xs" src="{{article.src}}" />
         </a>
-      </div> -->
+      </div>
       <div class="item__content" style="display: flex; align-items: center">
         <a href="{{ article.url }}">
           <h4 class="item__header">{{ article.title }}</h4>
