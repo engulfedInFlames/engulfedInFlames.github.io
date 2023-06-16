@@ -2,6 +2,10 @@
   url: "linux_1"
   src: "/assets/images/docs/notebook/linux-logo-only.png"
 
+- title: "도커 (6) : 도커 컴포트 CLI 치트 시트"
+  url: "docker_6"
+  src: "/assets/images/docs/notebook/docker-logo-only.png"
+
 - title: "도커 (5) : 도커 CLI 치트 시트"
   url: "docker_5"
   src: "/assets/images/docs/notebook/docker-logo-only.png"
