@@ -1,3 +1,11 @@
+- title: "NGINX vs Gunicorn"
+  url: "nginx-and-gunicorn"
+  src: "/assets/images/logo/tag-logo.png"
+
+- title: "EC2 RDS vs Container, DB 환경으로 무엇이 더 적합할까?"
+  url: "rds-and-container"
+  src: "/assets/images/logo/tag-logo.png"
+
 - title: "What is Gunicorn?"
   url: "gunicorn"
   src: "/assets/images/sparta/logo/gunicorn-icon.svg"
