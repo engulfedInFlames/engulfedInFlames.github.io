@@ -1,3 +1,15 @@
+- title: "youRfan (8) : postgreSQL 컨테이너 트러블슈팅"
+  url: "yourfan_8"
+  src: "/assets/images/logo/tag-logo.png"
+
+- title: "youRfan (7) : 로컬에서 장고에 postgreSQL 연결하기"
+  url: "yourfan_7"
+  src: "/assets/images/logo/tag-logo.png"
+
+- title: "youRfan (6) : 리액트에 장고 채널스 연결하기"
+  url: "yourfan_6"
+  src: "/assets/images/logo/tag-logo.png"
+
 - title: "youRfan (5) : AWS RDS(PostgreSQL)에 연결하기"
   url: "yourfan_5"
   src: "/assets/images/logo/tag-logo.png"
