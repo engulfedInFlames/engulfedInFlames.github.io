@@ -1,59 +1,59 @@
 - title: "리눅스 (1) : systemd로 부팅시키기"
   url: "linux_1"
-  src: "/assets/images/docs/notebook/linux-logo-only.png"
+  src: "/assets/images/docs/notebook/linux-icon.png"
 
-- title: "도커 (6) : 도커 컴포트 CLI 치트 시트"
-  url: "docker_6"
-  src: "/assets/images/docs/notebook/docker-logo-only.png"
+- title: "쿠버네티스 (1) : 쿠버네티스란?"
+  url: "k8s_1"
+  src: "/assets/images/docs/notebook/kubernetes-icon.png"
 
 - title: "도커 (5) : 도커 CLI 치트 시트"
   url: "docker_5"
-  src: "/assets/images/docs/notebook/docker-logo-only.png"
+  src: "/assets/images/docs/notebook/docker-icon.png"
 
 - title: "도커 (4) : 도커 8원칙"
   url: "docker_4"
-  src: "/assets/images/docs/notebook/docker-logo-only.png"
+  src: "/assets/images/docs/notebook/docker-icon.png"
 
 - title: "도커 (3) : 도커와 도커 파일"
   url: "docker_3"
-  src: "/assets/images/docs/notebook/docker-logo-only.png"
+  src: "/assets/images/docs/notebook/docker-icon.png"
 
 - title: "도커 (2) : 도커 그룹 및 유저 설정하기"
   url: "docker_2"
-  src: "/assets/images/docs/notebook/docker-logo-only.png"
+  src: "/assets/images/docs/notebook/docker-icon.png"
 
 - title: "도커 (1) : 도커 설치하기"
   url: "docker_1"
-  src: "/assets/images/docs/notebook/docker-logo-only.png"
+  src: "/assets/images/docs/notebook/docker-icon.png"
 
 - title: "ML 기본 (5) : 기초 통계 개념 정리"
   url: "ml_5"
-  src: "/assets/images/docs/notebook/tf-logo-only.png"
+  src: "/assets/images/docs/notebook/tf-icon.png"
 
 - title: "ML 기본 (4) : 텐서 다루기"
   url: "ml_4"
-  src: "/assets/images/docs/notebook/tf-logo-only.png"
+  src: "/assets/images/docs/notebook/tf-icon.png"
 
 - title: "ML 기본 (3) : 텐서 다루기"
   url: "ml_3"
-  src: "/assets/images/docs/notebook/tf-logo-only.png"
+  src: "/assets/images/docs/notebook/tf-icon.png"
 
 - title: "ML 기본 (2) : 텐서란"
   url: "ml_2"
-  src: "/assets/images/docs/notebook/tf-logo-only.png"
+  src: "/assets/images/docs/notebook/tf-icon.png"
 
 - title: "ML 기본 (1) : ML 기본 개념 정리"
   url: "ml_1"
-  src: "/assets/images/docs/notebook/tf-logo-only.png"
+  src: "/assets/images/docs/notebook/tf-icon.png"
 
 - title: "AWS 기본 (3) : 기본 개념 정리"
   url: "aws_3"
-  src: "/assets/images/docs/notebook/aws-logo-only.png"
+  src: "/assets/images/docs/notebook/aws-icon.png"
 
 - title: "AWS 기본 (2) : 기본 개념 정리"
   url: "aws_2"
-  src: "/assets/images/docs/notebook/aws-logo-only.png"
+  src: "/assets/images/docs/notebook/aws-icon.png"
 
 - title: "AWS 기본 (1) : 기본 개념 정리"
   url: "aws_1"
-  src: "/assets/images/docs/notebook/aws-logo-only.png"
+  src: "/assets/images/docs/notebook/aws-icon.png"

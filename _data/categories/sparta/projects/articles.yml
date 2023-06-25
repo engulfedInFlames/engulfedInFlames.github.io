@@ -1,8 +1,24 @@
+- title: "youRfan (12) : 텍스트 에디터에 이미지 업로드 기능 구현하기"
+  url: "yourfan_12"
+  src: "/assets/images/logo/tag-logo.png"
+
+- title: "youRfan (11) : 텍스트 에디터 구현하기"
+  url: "yourfan_11"
+  src: "/assets/images/logo/tag-logo.png"
+
+- title: "youRfan (10) : 도커 컴포즈로 개발 환경 구축하기"
+  url: "yourfan_10"
+  src: "/assets/images/logo/tag-logo.png"
+
+- title: "youRfan (9) : NGINX 트러블 슈팅"
+  url: "yourfan_9"
+  src: "/assets/images/logo/tag-logo.png"
+
 - title: "youRfan (8) : postgreSQL 컨테이너 트러블슈팅"
   url: "yourfan_8"
   src: "/assets/images/logo/tag-logo.png"
 
-- title: "youRfan (7) : 로컬에서 장고에 postgreSQL 연결하기"
+- title: "youRfan (7) : AWS RDS(PostgreSQL) 연결하기"
   url: "yourfan_7"
   src: "/assets/images/logo/tag-logo.png"
 
@@ -10,7 +26,7 @@
   url: "yourfan_6"
   src: "/assets/images/logo/tag-logo.png"
 
-- title: "youRfan (5) : AWS RDS(PostgreSQL)에 연결하기"
+- title: "youRfan (5) : 로컬에서 장고와 postgreSQL 연결하기"
   url: "yourfan_5"
   src: "/assets/images/logo/tag-logo.png"
 
