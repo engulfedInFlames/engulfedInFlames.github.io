@@ -1,3 +1,11 @@
+- title: "NGINX (2) : "
+  url: "nginx_2"
+  src: "/assets/images/docs/notebook/nginx-icon.svg"
+
+- title: "NGINX (1) : "
+  url: "nginx_1"
+  src: "/assets/images/docs/notebook/nginx-icon.svg"
+
 - title: "리눅스 (1) : systemd로 부팅시키기"
   url: "linux_1"
   src: "/assets/images/docs/notebook/linux-icon.png"

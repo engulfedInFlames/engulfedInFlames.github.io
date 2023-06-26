@@ -18,3 +18,27 @@
     </div>
   </div>
 </a>
+
+- 80% Center Image
+
+<div style="width:80%; margin:0 auto;" align="center" markdown="1">
+![The Result of Applying Custom HTML](/assets/images/docs/notebook/nginx/nginx_3.png){:.shadow}
+</div>
+
+- Gird (2)
+<div class="grid">
+<div class="cell cell--6">
+<div class="card" style="height: 100%">
+<div class="card__image">
+<img class="image image--xl" src="" alt="" style="height: 100%">
+</div>
+</div>
+</div>
+<div class="cell cell--6">
+<div class="card" style="height: 100%">
+<div class="card__image">
+<img class="image image--xl" src="" alt="" style="height: 100%">
+</div>
+</div>
+</div>
+</div>
