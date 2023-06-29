@@ -80,32 +80,32 @@ categories:
       - title: Machine Learning
         url: /categories/algorithm/ml/
 
+  - title: Docs
+    children:
+      - title: Notebook
+        url: /categories/docs/notebook/
+      - title: Deploy
+        url: /categories/docs/deploy/
+      - title: React
+        url: /categories/docs/react/
+      - title: Git&Github
+        url: /categories/docs/git/
+      - title: Gatsby
+        url: /categories/docs/gatsby/
+
   - title: DBMS
     children:
       - title: MySQL
         url: /categories/dbms/mysql/
 
+  - title: Clone Coding
+    children:
+      - title: Twitter
+        url: /categories/cloning/twitter/
+      - title: Noom
+        url: /categories/cloning/noom/
+
   - title: Chapt GPT
     children:
       - title: GPT-4
         url: /categories/gpt4/
-
-  - title: Clone Coding
-    children:
-      - title: Webflix
-        url: /categories/cloning/webflix/
-      - title: Noom
-        url: /categories/cloning/noom/
-
-  - title: Docs
-    children:
-      - title: Gatsby
-        url: /categories/docs/gatsby/
-      - title: React
-        url: /categories/docs/react/
-      - title: Deploy
-        url: /categories/docs/deploy/
-      - title: Git&Github
-        url: /categories/docs/git/
-      - title: Notebook
-        url: /categories/docs/notebook/
