@@ -1,60 +1,60 @@
-- title: "youRfan (15) : 깃허브 액션을 사용하여 리액트 앱 배포 파이프라인 구축하기"
+- title: "youRFan (15) : 깃허브 액션을 사용하여 프론트 CI 구축하기"
   url: "yourfan_15"
   src: "/assets/images/logo/tag-logo.png"
 
-- title: "youRfan (14) : React Recoil 전역 상태 변수 관리하기"
+- title: "youRFan (14) : React Recoil 전역 상태 변수 관리하기"
   url: "yourfan_14"
   src: "/assets/images/logo/tag-logo.png"
 
-- title: "youRfan (13) : 커스텀 도메인에 클라우드 프론트로 배포하기"
+- title: "youRFan (13) : 커스텀 도메인에 클라우드 프론트로 배포하기"
   url: "yourfan_13"
   src: "/assets/images/logo/tag-logo.png"
 
-- title: "youRfan (12) : 네이버 클라우드 휴대폰 인증 구현하기"
+- title: "youRFan (12) : 네이버 클라우드 휴대폰 인증 구현하기"
   url: "yourfan_12"
   src: "/assets/images/logo/tag-logo.png"
 
-- title: "youRfan (11) : users 앱 SingupView 개선"
+- title: "youRFan (11) : users 앱 SingupView 개선"
   url: "yourfan_11"
   src: "/assets/images/logo/tag-logo.png"
 
-- title: "youRfan (10) : 도커 컴포즈로 개발 환경 구축하기"
+- title: "youRFan (10) : 도커 컴포즈로 개발 환경 구축하기"
   url: "yourfan_10"
   src: "/assets/images/logo/tag-logo.png"
 
-- title: "youRfan (9) : NGINX 트러블 슈팅"
+- title: "youRFan (9) : NGINX 트러블 슈팅"
   url: "yourfan_9"
   src: "/assets/images/logo/tag-logo.png"
 
-- title: "youRfan (8) : postgreSQL 컨테이너 트러블슈팅"
+- title: "youRFan (8) : postgreSQL 컨테이너 트러블슈팅"
   url: "yourfan_8"
   src: "/assets/images/logo/tag-logo.png"
 
-- title: "youRfan (7) : AWS RDS(PostgreSQL) 연결하기"
+- title: "youRFan (7) : AWS RDS(PostgreSQL) 연결하기"
   url: "yourfan_7"
   src: "/assets/images/logo/tag-logo.png"
 
-- title: "youRfan (6) : 리액트에 장고 채널스 연결하기"
+- title: "youRFan (6) : 리액트에 장고 채널스 연결하기"
   url: "yourfan_6"
   src: "/assets/images/logo/tag-logo.png"
 
-- title: "youRfan (5) : 로컬에서 장고와 postgreSQL 연결하기"
+- title: "youRFan (5) : 로컬에서 장고와 postgreSQL 연결하기"
   url: "yourfan_5"
   src: "/assets/images/logo/tag-logo.png"
 
-- title: "youRfan (4) : Docker NGINX (REACT + DJANGO)"
+- title: "youRFan (4) : Docker NGINX (REACT + DJANGO)"
   url: "yourfan_4"
   src: "/assets/images/logo/tag-logo.png"
 
-- title: "youRfan (3) : 리액트 앱을 도커로 배포하기"
+- title: "youRFan (3) : 리액트 앱을 도커로 배포하기"
   url: "yourfan_3"
   src: "/assets/images/logo/tag-logo.png"
 
-- title: "youRfan (2) : NGINX를 사용하여 EC2에 리액트 앱 배포하기"
+- title: "youRFan (2) : NGINX를 사용하여 EC2에 리액트 앱 배포하기"
   url: "yourfan_2"
   src: "/assets/images/logo/tag-logo.png"
 
-- title: "youRfan (1) : AWS EB에 Express 기반 프론트엔드 앱 배포하기"
+- title: "youRFan (1) : AWS EB에 Express 기반 프론트엔드 앱 배포하기"
   url: "yourfan_1"
   src: "/assets/images/logo/tag-logo.png"
 
