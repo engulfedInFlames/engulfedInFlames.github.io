@@ -2,17 +2,21 @@
   url: "nginx_2"
   src: "/assets/images/docs/notebook/nginx-icon.svg"
 
-- title: "NGINX (1) : "
+- title: "NGINX (1) : NGINX란?"
   url: "nginx_1"
   src: "/assets/images/docs/notebook/nginx-icon.svg"
 
-- title: "리눅스 (1) : systemd로 부팅시키기"
-  url: "linux_1"
-  src: "/assets/images/docs/notebook/linux-icon.png"
+- title: "쿠버네티스 (3) : "
+  url: "k8s_3"
+  src: "/assets/images/docs/notebook/kubernetes-icon.svg"
 
-- title: "쿠버네티스 (1) : 쿠버네티스란?"
+- title: "쿠버네티스 (2) : 미니쿠베(Minikube)"
+  url: "k8s_2"
+  src: "/assets/images/docs/notebook/kubernetes-icon.svg"
+
+- title: "쿠버네티스 (1) : 쿠버네티스(k8s)란?"
   url: "k8s_1"
-  src: "/assets/images/docs/notebook/kubernetes-icon.png"
+  src: "/assets/images/docs/notebook/kubernetes-icon.svg"
 
 - title: "도커 (5) : 도커 CLI 치트 시트"
   url: "docker_5"
@@ -33,6 +37,10 @@
 - title: "도커 (1) : 도커 설치하기"
   url: "docker_1"
   src: "/assets/images/docs/notebook/docker-icon.png"
+
+- title: "리눅스 (1) : systemd로 부팅시키기"
+  url: "linux_1"
+  src: "/assets/images/docs/notebook/linux-icon.png"
 
 - title: "ML 기본 (5) : 기초 통계 개념 정리"
   url: "ml_5"

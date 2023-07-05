@@ -1,8 +1,12 @@
-- title: "youRFan (15) : 깃허브 액션을 사용하여 프론트 CI 구축하기"
+- title: "youRFan (16) : 스로틀링으로 사용자의 특정 API 요청 횟수 제한하기"
+  url: "yourfan_16"
+  src: "/assets/images/logo/tag-logo.png"
+
+- title: "youRFan (15) : 깃허브 액션을 사용하여 프론트 CI/CD 구축하기"
   url: "yourfan_15"
   src: "/assets/images/logo/tag-logo.png"
 
-- title: "youRFan (14) : React Recoil 전역 상태 변수 관리하기"
+- title: "youRFan (14) : 리코일(Recoil)로 상태 변수 관리하기"
   url: "yourfan_14"
   src: "/assets/images/logo/tag-logo.png"
 
