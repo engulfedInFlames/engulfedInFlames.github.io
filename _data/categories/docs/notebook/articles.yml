@@ -1,3 +1,7 @@
+- title: "NGINX +ɑ : 젠킨스 리버스 프록시"
+  url: "nginx_a1"
+  src: "/assets/images/docs/notebook/nginx-icon.svg"
+
 - title: "NGINX (2) : "
   url: "nginx_2"
   src: "/assets/images/docs/notebook/nginx-icon.svg"
