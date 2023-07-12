@@ -10,10 +10,6 @@
   url: "nginx_1"
   src: "/assets/images/docs/notebook/nginx-icon.svg"
 
-- title: "쿠버네티스 (3) : "
-  url: "k8s_3"
-  src: "/assets/images/docs/notebook/kubernetes-icon.svg"
-
 - title: "쿠버네티스 (2) : 미니쿠베(Minikube)"
   url: "k8s_2"
   src: "/assets/images/docs/notebook/kubernetes-icon.svg"
