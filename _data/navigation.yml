@@ -93,17 +93,17 @@ categories:
       - title: Gatsby
         url: /categories/docs/gatsby/
 
-  - title: DBMS
-    children:
-      - title: MySQL
-        url: /categories/dbms/mysql/
+  # - title: DBMS
+  #   children:
+  #     - title: MySQL
+  #       url: /categories/dbms/mysql/
 
-  - title: Clone Coding
-    children:
-      - title: Twitter
-        url: /categories/cloning/twitter/
-      - title: Noom
-        url: /categories/cloning/noom/
+  # - title: Clone Coding
+  #   children:
+  #     - title: Twitter
+  #       url: /categories/cloning/twitter/
+  #     - title: Noom
+  #       url: /categories/cloning/noom/
 
   - title: Chapt GPT
     children:
